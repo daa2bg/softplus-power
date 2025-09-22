@@ -103,12 +103,15 @@ It is motivated by real neuronal contrast-response functions and can emulate dif
 
 
 
-### 🔹 Citation
+## 📖 Citation
 
-If you use this activation in academic work, you can cite:
+If you use this activation in academic work, please cite:
+
+```bibtex
 @misc{softpluspower2025,
   title   = {Softplus-Power: A Biologically Inspired Activation Function},
   author  = {Daniel Angelov},
   year    = {2025},
   url     = {https://github.com/daa2bg/softplus-power.git}
 }
+```
