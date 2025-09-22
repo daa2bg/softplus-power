@@ -98,9 +98,9 @@ It is motivated by real neuronal contrast-response functions and can emulate dif
 
 ###  Visualization
  A plotting script is included to visualize presets, derivatives, and jitter effects:
-
+```bash
  python scripts/plot_activations.py --preset v1_simple --jitter 0.1 --save figs
-
+```
 
 
 ## 📖 Citation
