@@ -1,0 +1,26 @@
+name: softpluspower
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - numpy>=1.26
+  - scipy
+  - pandas
+  - matplotlib
+  - pytest
+  - pip:
+      # Core deep learning frameworks
+      - torch>=2.2
+      - torchvision>=0.17
+      - torchaudio>=2.2
+      - tensorflow>=2.15
+      - jax>=0.4.23
+      - jaxlib>=0.4.23
+      # Formatting & linting
+      - black
+      - isort
+      - flake8
+      # Install this project in editable mode
+      - -e .
