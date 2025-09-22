@@ -71,7 +71,7 @@ It is motivated by real neuronal contrast-response functions and can emulate dif
  git clone https://github.com/daa2bg/softplus-power.git
  cd softplus-power
  pip install -e .
-
+ ```
 
 ##  Examples
 **PyTorch examples:**
@@ -79,29 +79,31 @@ It is motivated by real neuronal contrast-response functions and can emulate dif
  ```python
  from softplus_power import CalibratedSoftplusPowerTorch
  act = CalibratedSoftplusPowerTorch(preset="v1_simple")
- ---
+ ```
+ ```python
  from softplus_power import CalibratedSoftplusPowerTorch
  act = CalibratedSoftplusPowerTorch(preset="v1_simple", jitter=0.05)
-
+ ```
 **Keras examples:**
 
   ```python
  from softplus_power import CalibratedSoftplusPowerKeras
  act = CalibratedSoftplusPowerKeras(preset="retinal_on")
- ---
+ ```
+ ```python
  from softplus_power import CalibratedSoftplusPowerKeras
  act = CalibratedSoftplusPowerKeras(preset="lgn_opponent", jitter=0.1)
-
+ ```
 ---
 
-### Visualization
+###  Visualization
  A plotting script is included to visualize presets, derivatives, and jitter effects:
 
  python scripts/plot_activations.py --preset v1_simple --jitter 0.1 --save figs
 
 
----
-🔹 Citation
+
+### 🔹 Citation
 
 If you use this activation in academic work, you can cite:
 @misc{softpluspower2025,
